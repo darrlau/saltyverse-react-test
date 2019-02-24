@@ -1,0 +1,81 @@
+.App {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.App-header {
+  /* background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.click-me {
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 15px 10px;
+  text-align: center;
+  border: 1px solid #bbb;
+  color: #bbb;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #111;
+  padding-right: 15px;
+}
+
+input {
+  margin-left: 5px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.timerbox {
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid green;
+}
+
+.box-0, .box-Done {
+  background-color: grey !important;
+  border: 5px solid white !important
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
+  border: 5px solid red !important;
+}
+
+.box-6, .box-7, .box-8, .box-9, .box-10 {
+  border: 5px solid yellow !important;
+}
+
+.box-11, .box-12, .box-13, .box-14, .box-15 {
+  border: 5px solid green
+}
